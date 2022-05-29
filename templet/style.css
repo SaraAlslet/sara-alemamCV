@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color: #555;
+    font-family: Lato;
+    font-size: 16px;
+}
+
+header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header-sec {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #fff;
+    /* font-weight: lighter; */
+    word-spacing: 3px;
+    font-size: 40px;
+}
+
+.btn {
+    border: solid 2px orange;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    color: orange;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: orange;
+    color: white;
+}
+
+.logo {
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.main-nav {
+    float: right;
+    margin-top: 55px;
+    list-style: none;
+
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 40px;
+    padding: 5px;
+
+}
+
+.main-nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main-nav li a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 30px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 150%;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+hr {
+    width: 100px;
+    border: orange 2px solid;
+    margin: 20px auto;
+}
+
+.p1 {
+    text-align: center;
+    width: 60%;
+    margin: 20px auto;
+    font-size: 25px;
+}
+
+.row {
+    width: 30%;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.row>h2 {
+    color: orange;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.imgs {
+    width: 30%;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    height: 200px;
+
+}
+
+.imgs img {
+    height: 200px;
+
+
+}
+
+.food-img {
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    margin-left: 40%;
+
+}
+
+.row2 {
+    /* width: 25%; */
+    height: 150px;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+.img-city {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    /* margin: 10px; */
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    /* height: 200px;  */
+}
+
+.row2>h3 {
+    font-weight: bold;
+    text-align: center;
+    color: orange;
+}
+
+.row2>ul {
+    list-style: none;
+
+}
+
+.row2>ul li {
+    text-align: center;
+}
+
+.mob {
+    background-color: #f0eeee;
+
+
+
+}
+
+.mob-div {
+    width: 300px;
+    margin-left: 150px;
+
+
+}
+
+.mob-div2 {
+    width: 50%;
+    float: right;
+    margin-top: 70px;
+
+
+}
+
+.mob-div2 p {
+    margin: 40px;
+    color: orange;
+    font-size: 35px;
+
+}
+
+.mob-div2 img {
+    padding: 15px;
+}
+
+.customers {
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/back-customers.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.customers img {
+    border-radius: 50%;
+    width: 60px;
+    text-align: center;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.customers div {
+    text-align: center;
+    word-spacing: 3px;
+    font-size: 20px;
+    padding-top: 100px;
+}
+
+#Contact {
+    background-color: #f0eeee;
+}
+
+.contact {
+    width: 50%;
+    float: right;
+    background-color: #fff;
+    text-align: center;
+
+}
+
+.contact form {
+    text-align: center;
+    /* padding-top: 10px; */
+}
+
+.contact form input {
+    /* display: block; */
+    width: 50%;
+    margin: 20px 1px;
+    height: 30px;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius: 10px;
+}
+
+.contact form input [type="checkbox"] {
+    width: 5%;
+    margin: 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    
+}
+
+.contact form input[type="submit"] {
+    font-size: 15px;
+    width: 20%;
+    text-transform: uppercase;
+    height: auto;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    background-color: orange;
+    border: solid 2px #fff;
+    padding: 10px;
+}
+
+.contact form input[type="submit"]:hover {
+    background-color: #fff;
+    color: orange;
+    border: solid 2px orange;
+}
+
+.footer {
+    /* width: 100%;
+  height: 80px; */
+    text-align: center;
+    background-color: #333;
+    color: orange;
+    font-weight: bold;
+    line-height: 50px;
+    position: relative;
+    /* margin-top: 500px; */
+}
+
+
+.footer ul {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    /* float: right; */
+}
+
+.footer ul li {
+    display: inline;
+
+    line-height: 50px;
+}
+
+.footer ul li a {
+    color: orange;
+    padding: 5px;
+}
+/*******signup & sign in Css***********/
+.section-form {
+    
+    float:right;
+    position: absolute; 
+     top: 30%;
+    left: 60%; 
+    /* transform: translate(-50%, -50%); */
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(241, 176, 54);
+    width: 30%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+
+.section-form h2 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #333;
+    margin: 10px;
+}
+
+.section-form form {
+    background-color:rgb(241, 176, 54);;
+}
+
+.section-form form input {
+    display: block;
+    width: 100%;
+    margin: 20px 1px;
+    height: 30px;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius: 10px;
+}
+
+.section-form form p {
+    color: #333;
+}
+
+.section-form form input[type="submit"] {
+    font-size: 20px;
+    text-transform: uppercase;
+    height: auto;
+    cursor: pointer;
+    color: #333;
+    font-weight: bold;
+    background-color: rgb(241, 176, 54);
+    border: solid 2px #333;
+    padding: 10px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.section-form form input[type="submit"]:hover {
+    background-color: #fff;
+}
